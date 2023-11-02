@@ -8,7 +8,7 @@ function listAllFoodItems(data) {
 
 // Function to list all the food items with category vegetables
 function listFoodItemsWithCategoryVegetables(data) {
-  return data.filter((item) => item.category === "Vegetables");
+  return data.filter((item) => item.category === "Vegetable");
 }
 
 // Function to list all the food items with category fruit
@@ -28,7 +28,7 @@ function listFoodItemsWithCategoryNuts(data) {
 
 // Function to list all the food items with category grains
 function listFoodItemsWithCategoryGrains(data) {
-  return data.filter((item) => item.category === "Grains");
+  return data.filter((item) => item.category === "Grain");
 }
 
 // Function to list all the food items with category dairy
